@@ -137,6 +137,11 @@ paginate = 10
 	url  = "/"
 	weight = 10
 
+[[menu.main]]
+	name = "Resume"
+	url  = "resume/"
+	weight = 0
+
 #[[menu.main]]
 #	name = "Blog"
 #	url  = "blog/"
