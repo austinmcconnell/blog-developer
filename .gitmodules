@@ -1,3 +1,7 @@
 [submodule "themes/hugo-strata-theme"]
 	path = themes/hugo-strata-theme
 	url = https://github.com/austinmcconnell/hugo-strata-theme
+[submodule "content/resume"]
+	path = content/resume
+	url = https://github.com/austinmcconnell/resume
+	branch = gh-pages
