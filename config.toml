@@ -115,7 +115,7 @@ paginate = 10
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
-		# email. Visitors can send up to a 1000 emails each month for free.
+		# email. Visitors can send up to a 50 emails each month on their free plan.
 	    #
 	    # What you need to do for the setup?
 	    #
@@ -125,6 +125,7 @@ paginate = 10
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
 		email = "austin@austinmcconnell.dev"
+		formspree_form_id=""
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
