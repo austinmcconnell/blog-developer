@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Austin McConnell"
-	description = "I am software developer who builds performant web apps, REST APIs, and ETL Pipelines." 
+	description = "I am software developer who builds performant web apps, REST APIs, and ETL Pipelines."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -42,7 +42,7 @@ paginate = 10
 			"&copy; Austin McConnell",
 			"Images: [Unsplash](//unsplash.com/)"
 		]
-	
+
 	[params.rss]
 	hide = true
 

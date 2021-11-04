@@ -21,7 +21,7 @@ If you want to send emails, create an account at formspree.io and set the follow
 export HUGOxPARAMSxCONTACTxFORMSPREE_FORM_ID=REPLACE_WITH_FORM_ID
 ```
 
-Otherwise, set formspree_form_id in the config.toml to any string value. It just can't be blank.
+Otherwise, set formspree_form_id in the config.toml to any string value.
 
 ## Serve the website
 
