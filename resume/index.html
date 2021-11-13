@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Austin McConnell</title>
+        <style>
+            html {
+	font-size: 12pt; /* 12pt == 16px == 100% */
+}
+body {
+	background: #fff;
+	/*font: 15px "Open Sans", Calibri, Helvetica, sans-serif;*/
+	font-size: .95rem;
+	font-family: Calibri, Helvetica, sans-serif;;
+	line-height: 1.4;
+	/*margin: 50px 0;*/
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+a, a:visited{
+     color: blue;
+}
+em {
+	color: #999;
+}
+p {
+	line-height: 1.4;
+}
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+.item {
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 2.7rem;
+	text-align: center;
+	max-height: 25px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#work h3 {
+	margin-bottom: 0px;
+	display: inline;
+	text-transform: uppercase;
+}
+
+span.position:before, span.location:before, span.date:before {
+	content:'|';
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#work span.position{
+	font-weight: bold;
+}
+
+#basics hr.style2 {
+	margin-bottom: 2em;
+}
+
+#basics .h3 {
+	margin-top: 1.5em;
+}
+
+.dot{
+	font-size: 2rem;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#basics > div.contact {
+	text-align: center;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+#basics .contact strong {
+	clear: both;
+	margin-right: 5px;
+	line-height: 1.3;
+	width: 120px;
+}
+
+#basics > div.summary {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#work div > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+
+ul.highlights {
+	margin-top: 0px;
+	padding-left: 20px;
+}
+
+#skills .item {
+	text-align: center;
+	width: 95%
+}
+
+
+#education span.location:before, #education span.year:before{
+	content:'\2022';
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 1rem;
+	vertical-align: middle;
+}
+
+
+#skills ul.keywords {padding-inline-start: 0px;}
+#skills ul li { list-style: none; display: inline;}
+#skills ul li:after { content: " \00b7"; }
+#skills ul li:last-child:after { content: none; }
+
+@media print {
+	html {
+		font-size: 10pt; /* 12pt == 16px == 100% */
+	}
+
+	body {
+		line-height: 1.2;
+	}
+
+	@page {
+		size: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+        </style>
+    </head>
+    
+    <body>
+        <div id="resume">
+             <h1>Austin McConnell</h1>
+
+            <section id="basics">
+                <div class="contact"> <span class="email">
+                        <strong>E</strong>
+                        <a href="mailto:austin@austinmcconnell.dev">austin@austinmcconnell.dev</a>
+                    </span>
+ <span class="dot">&#183</span>
+ <span class="phone"><strong>P</strong>+1 512-693-9462</span>
+
+                    <span
+                    class="dot">&#183</span> <span class="website"><strong>W</strong><a href="https://austinmcconnell.dev">https://austinmcconnell.dev</a></span>
+
+                </div>
+                <hr class="style2">
+                 <h2>Summary of Qualifications</h2>
+
+                <div class="summary">
+                    <p>I build performant web apps, REST APIs, and ETL Pipelines. I emphasize
+                        clean, maintainable code with a focus on readability and language-specific
+                        best practices. I build fully-automated CI/CD pipelines and I practice
+                        infrastructure-as-code. I have held a security clearance from the US government.</p>
+                </div>
+                <hr class="style2">
+            </section>
+            <section id="work">
+                 <h2>Work Experience</h2>
+
+                <div class="item">
+                     <h3 class="name">SparkCognition</h3>
+ <span class="position">Senior Backend Engineer</span>
+ <span class="location">Austin, TX</span>
+
+                    <span
+                    class="date"> <span class="startDate">Oct 2019</span>
+ <span class="endDate">- Present</span>
+</span>
+                        <div
+                        class="summary">
+                            <p>Joined SparkCognition to take DeepNLP product to next-level in both code
+                                architecture and deployment efficiency</p>
+                </div>
+                <ul class="highlights">
+                    <li>Designed and implemented background job processing and queueing system
+                        to parallelize ingestions and transformations.</li>
+                    <li>Proposed and partially implemented changes to decouple suite of 8 highly-coupled
+                        apps and vastly decrease deployment complexity.</li>
+                    <li>Proposed and implemented changes to Agile/Scrum process to increase team
+                        efficiency and decrease time between product releases.</li>
+                    <li>Removed 5000+ lines of unused code to clean up core product and increase
+                        readability &amp; maintainability.</li>
+                    <li>Implemented team coding standards to improve code readability.</li>
+                </ul>
+        </div>
+        <div class="item">
+             <h3 class="name">Real Massive</h3>
+ <span class="position">Full Stack Engineer</span>
+ <span class="location">Austin, TX</span>
+
+            <span
+            class="date"> <span class="startDate">May 2017</span>
+ <span class="endDate">- Oct 2019</span>
+</span>
+                <div
+                class="summary">
+                    <p>Joined RealMassive to improve the existing application development/deployment
+                        process and environment.</p>
+        </div>
+        <ul class="highlights">
+            <li>Built and deployed an ETL pipeline in Python that can process 3.6 Million
+                records per day.</li>
+            <li>Saved company 50k per year by optimizing infrastructure needs and application
+                memory/cpu requirements</li>
+            <li>Reduced Docker image sizes by 400% by restructuring existing containers
+                using best practices.</li>
+            <li>Co-led backend development effort for major redesign of products and platform.
+                Closely worked with Product Owner to define and clarify requirements.</li>
+            <li>Created and maintained fully automated CI/CD pipelines for code deployment
+                using CircleCI.</li>
+            <li>Maintained existing and deployed new microservices using Kubernetes, Terraform,
+                and Helm for repeatable infrastructure deployments across multiple environments.</li>
+            <li>Designed a new database model schema for ingestion pipeline based on product
+                requirements.</li>
+            <li>Implemented tooling to improve developer velocity using git pre-commit
+                hooks. These hooks automatically perform 15+ checks that ensure code meets
+                development standards which reduces subjectivity in PRs and increases maintainability
+                of our code bases.</li>
+        </ul>
+        </div>
+        <div class="item">
+             <h3 class="name">Lockheed Martin</h3>
+ <span class="position">Modeling &amp; Analysis Engineer</span>
+ <span class="location">Fort Worth, TX</span>
+
+            <span
+            class="date"> <span class="startDate">Jun 2014</span>
+ <span class="endDate">- Apr 2017</span>
+</span>
+                <div
+                class="summary">
+                    <p>Joined Lockheed Martin Modeling &amp; Analysis team to lead global aircraft
+                        logistics simulation effort. Obtained a government security clearance.</p>
+        </div>
+        <ul class="highlights">
+            <li>Youngest Study Lead ever for government contract deliverable. Output from
+                the deliverable was used to directly support negotiation of a $1.9B annualized
+                contract.</li>
+            <li>Successfully decreased the time and cost to produce contract deliverable
+                by 90% by fully automating the simulation, analysis, and report generation
+                process.</li>
+            <li>Created a multi-threaded, multi-processing agent-based file watcher program
+                in Python for automation of simulation post-processing. Multiple pipelines
+                stored processed results in a variety of formats and databases.</li>
+            <li>Primary modeler in charge of massive 10-year global simulation which included
+                planned squadron size and flight hours for US and partner countries, planned
+                and actual spare part purchases, and engineered and actual failure rates
+                for thousands of parts.</li>
+        </ul>
+        </div>
+        <hr class="style2">
+        </section>
+        <section id="education">
+             <h2>Professional Development & Education</h2>
+
+            <div class="item"> <span class="studyType">BS</span>
+ <span class="area">Aerospace Engineering</span>
+
+                <br> <span class="institution">Texas A&amp;M University</span>
+ <span class="location">College Station, TX</span>
+
+                <span
+                class="year">2011</span>
+            </div>
+            <hr class="style2">
+        </section>
+        <section id="skills">
+             <h2>Technical Skills</h2>
+
+            <div class="item">
+                <ul class="keywords">
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>SQLAlchemy</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Terraform</li>
+                    <li>Amazon Web Services (AWS)</li>
+                    <li>Google Cloud Platform (GCP)</li>
+                    <li>PostgreSQL</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>CircleCI</li>
+                </ul>
+            </div>
+        </section>
+    </body>
+
+</html>
