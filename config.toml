@@ -37,6 +37,7 @@ paginate = 10
 		googleplus = ""
 		flickr = ""
 		linkedin = "austinmcconnell"
+		keybase = "austinmcconnell"
 
 		copyright = [
 			"&copy; Austin McConnell",
