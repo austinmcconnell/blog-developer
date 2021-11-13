@@ -110,7 +110,7 @@ paginate = 10
 			"Cedar Park, TX",
 			"United States"
 		]
-		phone = ""
+		phone = "‪512-693-9462‬"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
