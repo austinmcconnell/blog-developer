@@ -15,6 +15,12 @@ git submodule add https://github.com/austinmcconnell/hugo-strata-theme themes/hu
 git submodule add --branch gh-pages https://github.com/austinmcconnell/resume content/resume
 ```
 
+Or update existing submodules
+
+```shell
+git submodule update --remote
+```
+
 If you want to send emails, create an account at formspree.io and set the following environment variable in your .env file.
 
 ```
